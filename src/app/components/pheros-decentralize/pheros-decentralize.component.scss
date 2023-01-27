@@ -1,0 +1,165 @@
+
+.conectaEC {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  > img {
+    position: absolute;
+    bottom: -190%;
+    width: 100%;
+  }
+  > div {
+    width: 71.5%;
+    max-width: 1031px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .conectaEC-title {
+    letter-spacing: -0.01em;
+    font-size: 32px;
+    line-height: 34px;
+    font-family: Gilmermedium;
+    margin-top: 24px;
+    background: linear-gradient(95.93deg, #FFCC70 -17.21%, #C850C0 22.56%, #4158D0 72.61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .conectaEC-description {
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: Gilmerregular;
+    margin-top: 8px;
+  }
+  .detallesData {
+    max-width: 818px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:21.5px;
+    > :nth-child(1) {
+      display: flex;
+      width: 100%;
+      gap: 20px;
+      > div{
+        max-width: 259px;
+        width: 33%;
+        font-family: Gilmerlight;
+        font-size: 14px;
+      }
+    }
+    > img {
+      margin-top:47px;
+      margin-left: 16px;
+    }
+    button {
+      background: #2934D0;
+      box-shadow: 0px 15px 15px rgba(41, 52, 208, 0.2);
+      border-radius: 10px;
+      font-size: 14px;
+      color: white;
+      font-family: Gilmerregular;
+      width: 295px;
+      height: 48px;
+      margin-top: 56px;
+      border: none;
+    }
+  }
+}
+
+.conectaEC-1 {
+  margin-top: 92.5px;
+  > img {
+    opacity: 0.1;
+  }
+  .conectaEC-description {
+    font-size: 32px;
+    margin-top: 13px;
+  }
+}
+
+@media (max-width: 1266px) {}
+@media (max-width: 1161px) {}
+@media (max-width: 885px) {
+  .conectaEC-1 {
+    margin-top: 30px;
+    .conectaEC-title {
+      display: block;
+      background: linear-gradient(180deg, #C850C0 0%, #4158D0 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      font-size: 26px;
+      font-family: Gilmermedium;
+      margin-top: 21px;
+    }
+    .conectaEC-description {
+      display: block;
+      font-size: 26px;
+      font-family: Gilmermedium
+    }
+  }
+}
+@media (max-width: 768px) {
+  .conectaEC-1 > div {
+    width: 74% ;
+  }
+}
+@media (max-width: 470px) {
+  .conectaEC {
+    .conectaEC-title {
+      margin-top: 5px;
+    }
+    .conectaEC-description {
+      font-size: 16px;
+      line-height: 19px;
+      font-family: Gilmerlight;
+      width: 319px;
+      margin-top: 0px;
+      letter-spacing: -0.01em;
+    }
+    .detallesData {
+      margin-top: 34.5px;
+      > img {
+        margin-left: 0px;
+        width: 235px;
+      }
+      > :nth-child(1) {
+        flex-direction: column;
+        align-items: center;
+        // gap: 20px;
+        font-size: 14px;
+        gap: 17px;
+        > div {
+          width: 100%;
+        }
+      }
+      button {
+        letter-spacing: -1px;
+      }
+    }
+  }
+  .conectaEC-1 {
+    margin-top: 20px;
+    .conectaEC-title {
+      font-size: 16px;
+      line-height: 19.2px;
+    }
+    .conectaEC-description {
+      font-size: 16px;
+      width: 100% !important;
+    }
+    > div {
+      width: 74% ;
+    }
+    // > img {
+    //   width: 83px;
+    //   height: 83px;
+    // }
+  }
+}

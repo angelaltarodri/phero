@@ -1,0 +1,147 @@
+.presentation {
+  display: flex;
+  justify-content: center;
+  > img {
+    width:42.2%
+  }
+  > div {
+    width: 71.5%;
+    max-width: 1030px;
+    height: 535px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > img {
+      width: 42.2%;
+      height: 322.6px;
+    }
+  }
+  .presentation-body {
+    width: 49%;
+    button {
+      width: 304px;
+      height: 59px;
+      background: linear-gradient(90deg, #C850C0 5.63%, #4158D0 92.5%);
+      box-shadow: 0px 15px 15px rgba(41, 52, 208, 0.2);
+      border-radius: 12px;
+      font-size: 14px;
+      font-family: Gilmerregular;
+      border: none;
+      color: white;
+      margin-top: 60px;
+    }
+    > :nth-child(1) {
+      font-size: 48px;
+      line-height: 48px;
+      letter-spacing: 0.01em;
+      font-family: Gilmermedium;
+      .text-degraded {
+        background: linear-gradient(90deg, #C850C0 0%, #4158D0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        height: 55px;
+      }
+    }
+    > :nth-child(2) {
+      font-size: 16px;
+      line-height: 19px;
+      font-family: Gilmerlight;
+      margin-top: 9px;
+    }
+    > :nth-child(3) {
+      font-size: 14px;
+      line-height: 17px;
+      font-family: Gilmerregular;
+      margin-top: 63px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      > :nth-child(2) {
+        display: flex;
+        gap: 10px 31.2px;
+      }
+    }
+  }
+}
+@media (max-width: 1266px) {
+  .presentation .presentation-body > :nth-child(1) {
+    font-size: 38px;
+    line-height: 39px;
+  }
+  .presentation .presentation-body > :nth-child(3) > :nth-child(2){
+    flex-wrap: wrap;
+    width: 230px;
+  }
+}
+@media (max-width: 1161px) {
+  .presentation > div > img {
+    width: 350px;
+    margin-left: 20px;
+  }
+  .presentation .presentation-body button {
+    margin-top: 30px;
+  }
+  .presentation .presentation-body > :nth-child(3) {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 885px) {
+  .presentation .presentation-body > :nth-child(3){
+    display:none;
+  }
+  .presentation .presentation-body button{
+    display:none;
+  }
+  .conectaEC > img{
+    display:none;
+  }
+  .presentation > div {
+    flex-direction: column;
+  }
+  .presentation .presentation-body > :nth-child(1){
+    text-align: center;
+  }
+  .presentation .presentation-body > :nth-child(2) {
+    text-align: center;
+  }
+  .presentation .presentation-body{
+    width: 401px;
+  }
+}
+@media (max-width: 768px) {}
+.presentation br {
+  display :none ;
+}
+@media (max-width: 470px) {
+  .presentation br {
+    display: block ;
+  }
+  .presentation > div {
+    height: 494px;
+  }
+  .presentation > div > img{
+    width: 330px;
+    margin-left: -10px;
+  }
+  .presentation .presentation-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .presentation .presentation-body > :nth-child(1){
+    font-size: 32px;
+    line-height: 34px;
+    width: 319px;
+    letter-spacing: -0.04em;
+  }
+  .presentation .presentation-body > :nth-child(2){
+    width: 299px;
+    font-size: 14px;
+    letter-spacing: -0.03em;
+    line-height: 17px;
+  }
+}

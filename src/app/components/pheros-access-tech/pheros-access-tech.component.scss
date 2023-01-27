@@ -1,0 +1,405 @@
+
+.conectaEC {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  > img {
+    position: absolute;
+    bottom: -190%;
+    width: 100%;
+  }
+  > div {
+    width: 71.5%;
+    max-width: 1031px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .conectaEC-title {
+    letter-spacing: -0.01em;
+    font-size: 32px;
+    line-height: 34px;
+    font-family: Gilmermedium;
+    margin-top: 24px;
+    background: linear-gradient(95.93deg, #FFCC70 -17.21%, #C850C0 22.56%, #4158D0 72.61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .conectaEC-description {
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: Gilmerregular;
+    margin-top: 8px;
+  }
+  .detallesData {
+    max-width: 818px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:21.5px;
+    > :nth-child(1) {
+      display: flex;
+      width: 100%;
+      gap: 20px;
+      > div{
+        max-width: 259px;
+        width: 33%;
+        font-family: Gilmerlight;
+        font-size: 14px;
+      }
+    }
+    > img {
+      margin-top:47px;
+      margin-left: 16px;
+    }
+    button {
+      background: #2934D0;
+      box-shadow: 0px 15px 15px rgba(41, 52, 208, 0.2);
+      border-radius: 10px;
+      font-size: 14px;
+      color: white;
+      font-family: Gilmerregular;
+      width: 295px;
+      height: 48px;
+      margin-top: 56px;
+      border: none;
+    }
+  }
+}
+.conectaEC-2 {
+  margin-top: 40px;
+}
+.redoperativa {
+  display: flex;
+  justify-content: center;
+  > div {
+    width: 56.8%;
+    max-width: 1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    margin-top:80px;
+    margin-bottom: 60px;
+    > div {
+      display: flex;
+      gap:20px
+    }
+  }
+  .bloques-desktop {
+    > div {
+      width: 100%;
+    }
+    > :nth-child(1) {
+      // plataforma de operaciones
+      > :nth-child(1) {
+        width: 62%;
+        align-items: center;
+        justify-content: start;
+        padding-left: 28px;
+        box-sizing: border-box;
+        position: relative;
+        >:nth-child(1) {
+          > :nth-child(1){
+          }
+          > :nth-child(2){
+          }
+        }
+        img {
+          position: absolute;
+          bottom: 0px;
+          right: 0px;
+          width:100%;
+          max-width: 360px;
+        }
+      }
+      // optimizador de rutas
+      > :nth-child(2) {
+        width: 36%;
+        align-items: start;
+        justify-content: start;
+        padding-left: 28px;
+        padding-top:55px;
+        box-sizing: border-box;
+        position: relative;
+        width: 36%;
+        >:nth-child(1) {
+          > :nth-child(1){
+          }
+          > :nth-child(2){
+          }
+        }
+        img {
+          position: absolute;
+          bottom: 0px;
+          right: 0px;
+          width:100%;
+          max-width: 245.72px;
+        }
+      }
+    }
+    > :nth-child(2) {
+      // trazabilidad en tiempo real
+      > :nth-child(1) {
+        align-items: start;
+        padding-top:33px;
+        box-sizing: border-box;
+        position: relative;
+        width: 36%;
+        >:nth-child(1) {
+          > :nth-child(1){
+            font-family: Gilmerregular;
+            color: #767780;
+            letter-spacing: -0.5px;
+          }
+          > :nth-child(2){
+            font-family: Gilmerbold;
+            color: #767780;
+            font-size: 28px;
+            color: black;
+          }
+        }
+        img {
+          position: absolute;
+          bottom: 0px;
+          right: 0px;
+          width:100%;
+          max-width: 188.72px;
+        }
+      }
+      // gestor de clientes
+      > :nth-child(2) {
+        width: 62%;
+        align-items: center;
+        justify-content: start;
+        padding-left:33px;
+        box-sizing: border-box;
+        position: relative;
+        >:nth-child(1) {
+          > :nth-child(1){
+            font-family: Gilmerregular;
+            color: #767780;
+          }
+          > :nth-child(2){
+            font-family: Gilmerbold;
+            color: #767780;
+            font-size: 28px;
+            color: black;
+          }
+        }
+        img {
+          position: absolute;
+          top: 25%;
+          right: 45px;
+          max-width: 244.81px;
+          width:100%;
+        }
+      }
+    }
+  }
+  .bloque {
+    width: 296px;
+    height: 223px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 16px 4px rgba(128, 128, 128, 0.09);
+    border-radius: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >:nth-child(1) {
+      text-align: start;
+      z-index: 2;
+      >:nth-child(1) {
+        font-size: 28px;
+        font-family: Gilmermedium;
+        letter-spacing: -1px;
+      }
+      >:nth-child(2) {
+        font-size: 16px;
+        font-family: Gilmerlight;
+        margin-top: 0px;
+      }
+    }
+    >:nth-child(2) {
+      z-index: 0;
+    }
+  }
+  .bloque-mobile {
+    display: none !important;
+  }
+}
+@media (max-width: 1266px) {
+  .redoperativa .bloque {
+    >:nth-child(1) {
+      margin-right: 0%;
+      width: 60%;
+    }
+    >:nth-child(2) {
+      width: 30px;
+      height: 60px;
+    }
+  }
+}
+@media (max-width: 1161px) {
+  .redoperativa > div {
+    flex-wrap: wrap;
+    width: 617px;
+    justify-content: center;
+  }
+}
+@media (max-width: 885px) {
+  .conectaEC-2 {
+    margin-top: 80px;
+    .conectaEC-title {
+      font-family: Gilmerbold;
+    }
+  }
+  .redoperativa {
+    > div {
+      width: 700px;
+    }
+    .bloque{
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .redoperativa {
+    .bloques-desktop {
+      width: 90%;
+    }
+    > div > div{
+      flex-direction: column;
+      align-items: center;
+      > div {
+        width: 80% !important;
+      }
+    }
+    .bloque {
+    width: 296px;
+    height: 223px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 16px 4px rgba(128, 128, 128, 0.09);
+    border-radius: 21px;
+    display: flex;
+    justify-content: start !important;
+    align-items: center !important;
+    padding-left: 30px;
+    padding-top: 0px !important;
+    >:nth-child(1) {
+      text-align: start;
+      z-index: 2;
+      >:nth-child(1) {
+        letter-spacing: -1px;
+      }
+      >:nth-child(2) {
+        margin-top: 0px;
+      }
+    }
+    >:nth-child(2) {
+      z-index: 0;
+      img {
+        width: 50% !important;
+      }
+    }
+  }
+  }
+}
+@media (max-width: 470px) {
+  .conectaEC {
+    .conectaEC-title {
+      margin-top: 5px;
+    }
+    .conectaEC-description {
+      font-size: 16px;
+      line-height: 19px;
+      font-family: Gilmerlight;
+      width: 319px;
+      margin-top: 0px;
+      letter-spacing: -0.01em;
+    }
+    .detallesData {
+      margin-top: 34.5px;
+      > img {
+        margin-left: 0px;
+        width: 235px;
+      }
+      > :nth-child(1) {
+        flex-direction: column;
+        align-items: center;
+        // gap: 20px;
+        font-size: 14px;
+        gap: 17px;
+        > div {
+          width: 100%;
+        }
+      }
+      button {
+        letter-spacing: -1px;
+      }
+    }
+  }
+  .conectaEC-2 {
+    margin-top:15px;
+    > div {
+      width: 90%;
+      max-width: 319px;
+      margin-top: 16px;
+    }
+    .conectaEC-description {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  .redoperativa {
+    > div {
+      margin-top: 18px;
+      gap: 15px;
+      width: 100%;
+      margin-bottom: 30px;
+      > div {
+        gap: 0px !important;
+        flex-direction: row;
+        align-items: center;
+      }
+    }
+    .bloque {
+      display: none;
+    }
+    .bloque-mobile {
+      width: 85.6% !important;
+      height: 90px;
+      background: #FFFFFF;
+      box-shadow: 0px 2px 16px 4px rgba(128, 128, 128, 0.09);
+      border-radius: 14px;
+      display: flex !important;
+      justify-content: flex-end;
+      align-items: center;
+      >:nth-child(1) {
+        text-align: start;
+        width: 40%;
+        height: 55px;
+        margin-top: 22px;
+        margin-left: 22px;
+        >:nth-child(1) {
+          font-size: 16px;
+          font-family: Gilmermedium;
+        }
+        >:nth-child(2) {
+          font-size: 8px;
+          font-family: Gilmerlight;
+          margin-top: 1px;
+        }
+      }
+      >:nth-child(2) {
+        width: 168px;
+        display:flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+}
