@@ -1,4 +1,4 @@
-.withimages {
+.plan-monitor {
   display:flex;
   justify-content: center;
   > div {
@@ -7,7 +7,12 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 60px;
     > div {
+      width: 381px;
+      // margin-bottom: 40px;
+      margin-bottom: 0px;
+      margin-right: 25px;
       > :nth-child(1) {
         font-size: 32px;
       }
@@ -19,15 +24,6 @@
         font-size: 16px;
       }
     }
-  }
-  .withimages-2 {
-    margin-bottom: 60px;
-    div {
-      width: 381px;
-      // margin-bottom: 40px;
-      margin-bottom: 0px;
-      margin-right: 25px;
-    }
     img {
       width: 46.5%
     }
@@ -36,8 +32,8 @@
 
 @media (max-width: 1266px) {}
 @media (max-width: 1161px) {
-  .withimages {
-    .withimages-2 {
+  .plan-monitor {
+    > div {
       img {
         width: 37.5%;
         margin-right: 5%;
@@ -50,9 +46,9 @@
   }
 }
 @media (max-width: 885px) {
-  .withimages {
+  .plan-monitor {
     margin-bottom: 30px;
-    .withimages-2 {
+    > div {
       margin-bottom: 30px;
       div {
         width: 250px;
@@ -61,38 +57,31 @@
   }
 }
 @media (max-width: 768px) {
-  .withimages {
+  .plan-monitor {
     margin-bottom: 75.48px;
     > div {
-      flex-direction: column;
+      flex-direction: column-reverse ;
       margin-bottom: 20px;
-      width: 420px !important;
+      width: 420px ;
       > div {
-        width: 420px !important;
+        margin-bottom: 0px;
+        width: 420px ;
         > :nth-child(1) {
-          font-family: Gilmerheavy !important;
+          font-family: Gilmerheavy ;
           span {
-            font-family: Gilmerregular !important;
+            font-family: Gilmerregular;
           }
         }
       }
+      img {
+        width: 420px !important;
+      }
     }
-
-  .withimages-2 {
-    flex-direction: column-reverse !important;
-
-    div {
-      width: 420px !important;
-      margin-bottom: 0px;
-    }
-    img {
-      width: 420px !important;
-    }
-  }
   }
 }
 @media (max-width: 470px) {
-  .withimages {
+  .plan-monitor {
+    margin-bottom: 45px;
     > div {
       width: 100%;
       max-width: 319px;
@@ -100,19 +89,13 @@
       > div {
         width: 100%;
         max-width: 319px;
-        > :nth-child(2) {
-          margin-top: 19px;
-        }
-      }
-    }
-    .withimages-2 {
-      div {
-        width: 100%;
-        max-width: 319px;
         margin-left: 0px;
         margin-right: 0px;
         > :nth-child(1){
           font-size: 28px !important;
+        }
+        > :nth-child(2) {
+          margin-top: 19px;
         }
       }
       img {
@@ -123,8 +106,5 @@
         margin-bottom: 35px;
       }
     }
-  }
-  .withimages-mobile-2 {
-    margin-bottom: 45px !important;
   }
 }

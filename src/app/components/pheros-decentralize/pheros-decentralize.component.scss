@@ -1,8 +1,12 @@
 
-.conectaEC {
+.decentralize {
   display: flex;
   justify-content: center;
   position: relative;
+  margin-top: 92.5px;
+  > img {
+    opacity: 0.1;
+  }
   > img {
     position: absolute;
     bottom: -190%;
@@ -15,7 +19,7 @@
     align-items: center;
     text-align: center;
   }
-  .conectaEC-title {
+  .decentralize-title {
     letter-spacing: -0.01em;
     font-size: 32px;
     line-height: 34px;
@@ -27,12 +31,14 @@
     background-clip: text;
     text-fill-color: transparent;
   }
-  .conectaEC-description {
+  .decentralize-description {
     letter-spacing: -0.01em;
     font-weight: 400;
-    font-size: 24px;
+    // font-size: 24px;
     font-family: Gilmerregular;
-    margin-top: 8px;
+    // margin-top: 8px;
+    font-size: 32px;
+    margin-top: 13px;
   }
   .detallesData {
     max-width: 818px;
@@ -71,23 +77,12 @@
   }
 }
 
-.conectaEC-1 {
-  margin-top: 92.5px;
-  > img {
-    opacity: 0.1;
-  }
-  .conectaEC-description {
-    font-size: 32px;
-    margin-top: 13px;
-  }
-}
-
 @media (max-width: 1266px) {}
 @media (max-width: 1161px) {}
 @media (max-width: 885px) {
-  .conectaEC-1 {
+  .decentralize-1 {
     margin-top: 30px;
-    .conectaEC-title {
+    .decentralize-title {
       display: block;
       background: linear-gradient(180deg, #C850C0 0%, #4158D0 100%);
       -webkit-background-clip: text;
@@ -98,7 +93,7 @@
       font-family: Gilmermedium;
       margin-top: 21px;
     }
-    .conectaEC-description {
+    .decentralize-description {
       display: block;
       font-size: 26px;
       font-family: Gilmermedium
@@ -106,23 +101,33 @@
   }
 }
 @media (max-width: 768px) {
-  .conectaEC-1 > div {
+  .decentralize > div {
     width: 74% ;
   }
 }
 @media (max-width: 470px) {
-  .conectaEC {
-    .conectaEC-title {
-      margin-top: 5px;
+  .decentralize {
+    margin-top: 20px;
+    > div {
+      width: 74% ;
     }
-    .conectaEC-description {
+    .decentralize-title {
+      margin-top: 5px;
+      font-size: 16px;
+      line-height: 19.2px;
+    }
+    .decentralize-description {
       font-size: 16px;
       line-height: 19px;
       font-family: Gilmerlight;
-      width: 319px;
       margin-top: 0px;
       letter-spacing: -0.01em;
+      width: 100% !important;
     }
+    // > img {
+    //   width: 83px;
+    //   height: 83px;
+    // }
     .detallesData {
       margin-top: 34.5px;
       > img {
@@ -143,23 +148,5 @@
         letter-spacing: -1px;
       }
     }
-  }
-  .conectaEC-1 {
-    margin-top: 20px;
-    .conectaEC-title {
-      font-size: 16px;
-      line-height: 19.2px;
-    }
-    .conectaEC-description {
-      font-size: 16px;
-      width: 100% !important;
-    }
-    > div {
-      width: 74% ;
-    }
-    // > img {
-    //   width: 83px;
-    //   height: 83px;
-    // }
   }
 }

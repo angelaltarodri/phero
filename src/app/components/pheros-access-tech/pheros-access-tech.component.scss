@@ -1,5 +1,6 @@
 
-.conectaEC {
+.access-tech {
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -15,7 +16,7 @@
     align-items: center;
     text-align: center;
   }
-  .conectaEC-title {
+  .access-tech-title {
     letter-spacing: -0.01em;
     font-size: 32px;
     line-height: 34px;
@@ -27,7 +28,7 @@
     background-clip: text;
     text-fill-color: transparent;
   }
-  .conectaEC-description {
+  .access-tech-description {
     letter-spacing: -0.01em;
     font-weight: 400;
     font-size: 24px;
@@ -69,9 +70,6 @@
       border: none;
     }
   }
-}
-.conectaEC-2 {
-  margin-top: 40px;
 }
 .redoperativa {
   display: flex;
@@ -252,9 +250,9 @@
   }
 }
 @media (max-width: 885px) {
-  .conectaEC-2 {
+  .access-tech {
     margin-top: 80px;
-    .conectaEC-title {
+    .access-tech-title {
       font-family: Gilmerbold;
     }
   }
@@ -310,17 +308,25 @@
   }
 }
 @media (max-width: 470px) {
-  .conectaEC {
-    .conectaEC-title {
+  .access-tech {
+    > div {
+      width: 90%;
+      max-width: 319px;
+      margin-top: 16px;
+    }
+    margin-top:15px;
+    .access-tech-title {
       margin-top: 5px;
     }
-    .conectaEC-description {
+    .access-tech-description {
       font-size: 16px;
       line-height: 19px;
       font-family: Gilmerlight;
-      width: 319px;
-      margin-top: 0px;
+      // width: 319px;
+      // margin-top: 0px;
       letter-spacing: -0.01em;
+      width: 100%;
+      margin-top: 10px;
     }
     .detallesData {
       margin-top: 34.5px;
@@ -341,18 +347,6 @@
       button {
         letter-spacing: -1px;
       }
-    }
-  }
-  .conectaEC-2 {
-    margin-top:15px;
-    > div {
-      width: 90%;
-      max-width: 319px;
-      margin-top: 16px;
-    }
-    .conectaEC-description {
-      width: 100%;
-      margin-top: 10px;
     }
   }
   .redoperativa {
